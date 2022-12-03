@@ -1,8 +1,8 @@
 import "./App.css";
-function EnrolmentForm() {
+function EnrollmentForm() {
   return (
     <div>
-    <form className="enrolForm">
+    <form className="enrollForm">
       <h1>Student Details</h1>
       <label>First name:</label>        
       <input type="text" name="fname" />
@@ -17,4 +17,4 @@ function EnrolmentForm() {
   );
 }
 
-export default EnrolmentForm;
+export default EnrollmentForm;
